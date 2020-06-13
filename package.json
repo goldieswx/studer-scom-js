@@ -1,0 +1,15 @@
+{
+  "name": "studer-scom-js",
+  "version": "1.0.0",
+  "description": "node.js Javascript wrapper for studer scom framework using serial port (232i)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ffi": "^2.3.0",
+    "ref": "^1.3.5"
+  }
+}
