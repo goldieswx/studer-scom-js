@@ -13,7 +13,7 @@ Usage
 
 *Read value into buffer*
 
-const buffer = new Buffer(64);
+`const buffer = new Buffer(64);
 
 /// Read value at first extender (101)
 const valueId = 3000;
@@ -21,7 +21,7 @@ const xtenderId = 101;
 
 const response = scom.readValue(valueId,buffer.ref(),buffer.length,xtenderId);
 
-console.log("Vbat : ", buffer.readFloatLE());
+console.log("Vbat : ", buffer.readFloatLE());`
 
 
 *Deinitialize serial port.*
