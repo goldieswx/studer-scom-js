@@ -26,7 +26,7 @@ const response = scom.readValue(valueId,buffer.ref(),buffer.length,xtenderId);
 console.log("Vbat : ", buffer.readFloatLE());
 ```
 
-*Write value into buffer*
+*Write value*
 
 ```
 /// Write value to first extender (101). Set AUX2 ON
