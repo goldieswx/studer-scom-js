@@ -6,7 +6,7 @@ Node.Js required (version <= 10). Writing a native js port is possible,
 however using Studer default 'C' implementation is a quick way to access the hardware. 
 This port is currently (quite) limited to writing/reading parameters/properties.
 
-* Note. Tested in a linux based system. Should not work in a windows environement.
+* Note. Tested in a linux based system. Should not work in a windows environement, unless the serial access functions are ported.
 
 Usage
 
