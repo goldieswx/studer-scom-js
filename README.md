@@ -2,8 +2,8 @@
 Javascript wrapper for studer scom using serial port (232i)
 
 Implementation of a studer scom Javascript wrapper. This library uses node-ffi and node-ref. 
-Node.Js required (version <= 10). Alternatetively a native port should be possible, 
-however using Studer default 'C' implementation is faster. 
+Node.Js required (version <= 10). Writing a native js port is possible, 
+however using Studer default 'C' implementation is a quick way to access the hardware. 
 This port is currently limited to writing/reading parameters/properties.
 
 Usage
