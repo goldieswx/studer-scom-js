@@ -3,7 +3,8 @@ Javascript wrapper for studer scom using serial port (232i)
 
 Implementation of a studer scom Javascript wrapper. This library uses node-ffi and node-ref. 
 Node.Js required (version <= 10). Alternatetively a native port should be possible, 
-however using Studer default 'C' implementation is faster.
+however using Studer default 'C' implementation is faster. 
+This port is currently limited to writing/reading parameters/properties.
 
 Usage
 
@@ -24,6 +25,14 @@ const response = scom.readValue(valueId,buffer.ref(),buffer.length,xtenderId);
 
 console.log("Vbat : ", buffer.readFloatLE());
 ```
+
+*Write value into buffer*
+
+```
+/// Write value to first extender (101). Set AUX2 ON
+const response = scom.writeUnsavedValue(1311,0x00000004,4,xtenderId);
+```
+
 
 *Deinitialize serial port.*
 
