@@ -12,7 +12,7 @@ var scomlibLoc = null;
 if (platform === "win32") {
   scomlibLoc = "./scom.dll";
 } else if (platform === "linux") {
-  scomlibLoc = "./build/Release/lib.target/scom.so";
+  scomlibLoc = "./build/Release/obj.target/scom.so";
 } else if (platform === "darwin") {
   scomlibLoc = "./scom.dylib";
 } else {
