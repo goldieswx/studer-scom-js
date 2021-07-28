@@ -1,5 +1,5 @@
-# studer-scom-js
-Javascript wrapper for studer scom using serial port (232i)
+# studer scom js
+Javascript wrapper for Studer Scom serial protocol using serial port (232i)
 
 Implementation of a studer scom Javascript wrapper. This library uses node-ffi and node-ref. 
 Node.Js required (version <= 10). Writing a native js port is possible, 
