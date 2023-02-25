@@ -20,7 +20,7 @@ if (platform === "win32") {
 }
 
 
-module.exports = ffi.Library(scomlibLoc, {
+module.exports = ffi.Library(__dirname + '/' + scomlibLoc, {
 
   // uint32_t writeUnsavedValue (uint32_t p_oid, uint32_t value, uint32_t intSize, uint32_t destination)
   writeUnsavedValue : [ uint32, [uint32,uint32,uint32,uint32]],
