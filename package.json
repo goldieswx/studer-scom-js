@@ -1,6 +1,6 @@
 {
   "name": "studer-scom-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node.js Javascript wrapper for studer scom framework using serial port (232i)",
   "main": "index.js",
   "scripts": {
