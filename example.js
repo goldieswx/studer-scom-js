@@ -1,4 +1,4 @@
-const scom = require("studer-scom-js")
+const scom = require("index")
 const ref = require("ref");
 
 scom.initialize_serial_port("/dev/ttyUSB0");
