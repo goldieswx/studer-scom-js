@@ -1,4 +1,4 @@
-const  ffi = require("ffi");
+const  ffi = require("ffi-napi");
 const  ref = require("ref");
 
 const  uint32   = ref.types.uint32;
